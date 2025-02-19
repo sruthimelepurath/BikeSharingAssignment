@@ -1,0 +1,88 @@
+DataStage Report - Summary Log for job: FT02_BANK_CHECKING_To_BANK2_COMBINED_SOURCES 
+Produced on: 2/19/2025 4:38:57 AM
+Project: dstage1                       Host system: IS-SERVER.IBM.COM
+Items: 1 - 27
+Sorted on: Date Sorter
+
+   Occurred: 10:28:11 PM     On date: 3/31/2016            Type: Control
+   Event: Starting Job FT02_BANK_CHECKING_To_BANK2_COMBINED_SOURCES. (...)
+
+   Occurred: 10:28:11 PM     On date: 3/31/2016            Type: Info
+   Event: Environment variable settings:  (...)
+
+   Occurred: 10:28:11 PM     On date: 3/31/2016            Type: Info
+   Event: Parallel job initiated
+
+   Occurred: 10:28:11 PM     On date: 3/31/2016            Type: Info
+   Event: OSH script  (...)
+
+   Occurred: 10:28:11 PM     On date: 3/31/2016            Type: Info
+   Event: Parallel job default NLS map UTF-8, default locale OFF
+
+   Occurred: 10:28:11 PM     On date: 3/31/2016            Type: Info
+   Event: main_program: IBM InfoSphere DataStage Enterprise Edition 11.5.0.7665  (...)
+
+   Occurred: 10:28:11 PM     On date: 3/31/2016            Type: Info
+   Event: main_program: conductor uname: -s=Linux; -r=2.6.32-573.18.1.el6.x86_64; -v=#1 SMP Wed Jan 6 11:20:49 EST 2016; -n=is-server.ibm.com; -m=x86_64
+
+   Occurred: 10:28:11 PM     On date: 3/31/2016            Type: Info
+   Event: main_program: orchgeneral: loaded (...)
+
+   Occurred: 10:28:11 PM     On date: 3/31/2016            Type: Info
+   Event: BANK_CHECKING: Connected to a LUW DB2 server
+
+   Occurred: 10:28:11 PM     On date: 3/31/2016            Type: Info
+   Event: BANK_CHECKING: Generated SELECT statement: SELECT ACCOUNT_BALANCE,ACCOUNT_BRANCH,ACCOUNT_HOLDER_ID,ACCOUNT_ID,ADDR1,ADDR2,BANKCARD,CITY,NAME,ONLINE_ACCESS,RECORD_ID,SS_NUM,STATE,ZIP,ZIP_FOUR FROM JK_B (...)
+
+   Occurred: 10:28:11 PM     On date: 3/31/2016            Type: Info
+   Event: BANK2_COMBINED_SOURCES: Connected to a LUW DB2 server
+
+   Occurred: 10:28:11 PM     On date: 3/31/2016            Type: Info
+   Event: BANK2_COMBINED_SOURCES: Generated INSERT statement: INSERT INTO JK_STAGING.BANK2_COMBINED_SOURCES(ACCOUNT_TYPE,ADDR1,ADDR2,BANKCARD,CITY,GENDER,JOINED_ACCOUNTS,MARITAL_STATUS,NAME,NBR_YEARS_CLI,ONLINE (...)
+
+   Occurred: 10:28:12 PM     On date: 3/31/2016            Type: Info
+   Event: main_program: APT configuration file: /opt/IBM/InformationServer/Server/Configurations/default.apt (...)
+
+   Occurred: 10:28:12 PM     On date: 3/31/2016            Type: Info
+   Event: BANK_CHECKING,0: Connected to a LUW DB2 server
+
+   Occurred: 10:28:12 PM     On date: 3/31/2016            Type: Info
+   Event: BANK_CHECKING,0: Generated SELECT statement: SELECT ACCOUNT_BALANCE,ACCOUNT_BRANCH,ACCOUNT_HOLDER_ID,ACCOUNT_ID,ADDR1,ADDR2,BANKCARD,CITY,NAME,ONLINE_ACCESS,RECORD_ID,SS_NUM,STATE,ZIP,ZIP_FOUR FROM JK (...)
+
+   Occurred: 10:28:12 PM     On date: 3/31/2016            Type: Info
+   Event: BANK2_COMBINED_SOURCES,0: Connected to a LUW DB2 server
+
+   Occurred: 10:28:12 PM     On date: 3/31/2016            Type: Info
+   Event: BANK2_COMBINED_SOURCES,1: Connected to a LUW DB2 server
+
+   Occurred: 10:28:12 PM     On date: 3/31/2016            Type: Info
+   Event: BANK2_COMBINED_SOURCES,0: Generated INSERT statement: INSERT INTO JK_STAGING.BANK2_COMBINED_SOURCES(ACCOUNT_TYPE,ADDR1,ADDR2,BANKCARD,CITY,GENDER,JOINED_ACCOUNTS,MARITAL_STATUS,NAME,NBR_YEARS_CLI,ONLI (...)
+
+   Occurred: 10:28:12 PM     On date: 3/31/2016            Type: Info
+   Event: BANK2_COMBINED_SOURCES,1: Generated INSERT statement: INSERT INTO JK_STAGING.BANK2_COMBINED_SOURCES(ACCOUNT_TYPE,ADDR1,ADDR2,BANKCARD,CITY,GENDER,JOINED_ACCOUNTS,MARITAL_STATUS,NAME,NBR_YEARS_CLI,ONLI (...)
+
+   Occurred: 10:28:12 PM     On date: 3/31/2016            Type: Info
+   Event: BANK2_COMBINED_SOURCES,1: Number of rows inserted: 550
+
+   Occurred: 10:28:12 PM     On date: 3/31/2016            Type: Info
+   Event: BANK2_COMBINED_SOURCES,0: Number of rows inserted: 551
+
+   Occurred: 10:28:12 PM     On date: 3/31/2016            Type: Info
+   Event: BANK2_COMBINED_SOURCES,0: Number of rows rejected: 0
+
+   Occurred: 10:28:12 PM     On date: 3/31/2016            Type: Info
+   Event: BANK2_COMBINED_SOURCES,1: Number of rows rejected: 0
+
+   Occurred: 10:28:12 PM     On date: 3/31/2016            Type: Info
+   Event: main_program: Step execution finished with status = OK.
+
+   Occurred: 10:28:12 PM     On date: 3/31/2016            Type: Info
+   Event: main_program: Startup time, 0:00; production run time, 0:00.
+
+   Occurred: 10:28:12 PM     On date: 3/31/2016            Type: Info
+   Event: Parallel job reports successful completion
+
+   Occurred: 10:28:12 PM     On date: 3/31/2016            Type: Control
+   Event: Finished Job FT02_BANK_CHECKING_To_BANK2_COMBINED_SOURCES.
+
+End of report.

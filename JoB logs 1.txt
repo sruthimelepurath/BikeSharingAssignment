@@ -1,0 +1,93 @@
+Server: IS-SERVER.IBM.COM
+Project: dstage1
+Job No: 235
+Job Name: FT03_BANK_INVESTMENTS_To_BANK2_COMBINED_SOURCES
+Invocation: 
+Wave/Event Number: 2/28
+Event Type: Info
+User: dsadm
+Timestamp: 9/20/2021 9:33:34 PM
+Message Id: IIS-DSTAGE-RUN-I-0126
+Message:
+Environment variable settings: 
+_=/usr/bin/nohup
+APT_COMPILEOPT=-c -O -fPIC -Wno-deprecated -m64 -mtune=generic -mcmodel=small
+APT_COMPILER=g++
+APT_CONFIG_FILE=/opt/IBM/InformationServer/Server/Configurations/default.apt
+APT_ERROR_CONFIGURATION=severity, !vseverity, !jobid, moduleid, errorIndex, timestamp, !ipaddr, !nodeplayer, !nodename, opid, message
+APT_LINKER=g++
+APT_LINKOPT=-shared -m64
+APT_MONITOR_MINTIME=10
+APT_NO_ONE_NODE_COMBINING_OPTIMIZATION=1
+APT_OPERATOR_REGISTRY_PATH=/opt/IBM/InformationServer/Server/Projects/dstage1/buildop
+APT_ORCHHOME=/opt/IBM/InformationServer/Server/PXEngine
+APT_USE_IPV4=1
+APT_YARN_CONFIG=
+ASBHOME=/opt/IBM/InformationServer/ASBNode
+BELL=^G
+CONSOLETYPE=vt
+DB2DIR=/opt/IBM/db2/V10.5
+DB2INSTANCE=db2inst1
+DS_ENABLE_RESERVED_CHAR_CONVERT=0
+DS_OPERATOR_BUILDOP_DIR=buildop
+DS_OPERATOR_WRAPPED_DIR=wrapped
+DS_OPTIMIZE_FILE_BROWSE=0
+DS_TDM_PIPE_OPEN_TIMEOUT=720
+DS_TDM_TRACE_SUBROUTINE_CALLS=0
+DS_USERNO=-28229
+DSHOME=/opt/IBM/InformationServer/Server/DSEngine
+DSIPC_OPEN_TIMEOUT=30
+DSRPCD_PORT_NUMBER=31538
+FLAVOR=-1
+HOME=/home/dsadm
+INSTHOME=/home/db2inst1
+ISFSHMID=11108380
+ISHOME=/opt/IBM/InformationServer
+ISUSER=tracy
+LANG=en_US.UTF-8
+LANGSH_SOURCED=1
+LD_LIBRARY_PATH=/opt/IBM/InformationServer/Server/Projects/dstage1/RT_BP235.O:/opt/IBM/InformationServer/Server/DSComponents/lib:/opt/IBM/InformationServer/Server/DSComponents/bin:/opt/IBM/InformationServer/Server/DSParallel:/opt/IBM/InformationServer/Server/PXEngine/user_lib:/opt/IBM/InformationServer/Server/PXEngine/lib:/opt/IBM/InformationServer/Server/Projects/dstage1/buildop:/opt/IBM/InformationServer/Server/biginsights/IHC/c++/Linux-amd64-64/lib:/opt/IBM/InformationServer/Server/branded_odbc/lib:/opt/IBM/InformationServer/Server/DSEngine/lib:/opt/IBM/InformationServer/Server/DSEngine/uvdlls:/opt/IBM/InformationServer/jdk/jre/lib/amd64/j9vm:/opt/IBM/InformationServer/jdk/jre/lib/amd64:/opt/IBM/InformationServer/ASBNode/lib/cpp:/opt/IBM/InformationServer/ASBNode/apps/proxy/cpp/linux-all-x86_64:/opt/IBM/db2/V10.5/lib64:/usr/iop/4.1.0.0/hadoop/lib/native:/home/db2inst1/sqllib/lib:/usr/local/nz/lib64:/usr/local/nz/lib:/opt/IBM/InformationServer/Server/odpp/rhel/bin:/usr/lib:.:/lib
+LOGNAME=dsadm
+NZ_ODBC_INI_PATH=/opt/IBM/InformationServer/Server/DSEngine
+ODBCINI=/opt/IBM/InformationServer/Server/DSEngine/odbc.ini
+ODPPERRL=/opt/IBM/InformationServer/Server/odpp/rhel/include
+ODPPLL=/opt/IBM/InformationServer/Server/odpp
+OLDPWD=/opt/IBM/InformationServer/Server/DSEngine
+OSH_STDOUT_MSG=1
+PATH=/opt/IBM/InformationServer/Server/Projects/dstage1/wrapped:/opt/IBM/InformationServer/Server/Projects/dstage1/buildop:/opt/IBM/InformationServer/Server/Projects/dstage1/RT_BP235.O:/opt/IBM/InformationServer/Server/DSComponents/lib:/opt/IBM/InformationServer/Server/DSComponents/bin:/opt/IBM/InformationServer/Server/DSParallel:/opt/IBM/InformationServer/Server/PXEngine/user_osh_wrappers:/opt/IBM/InformationServer/Server/PXEngine/osh_wrappers:/opt/IBM/InformationServer/Server/PXEngine/bin:/sbin:/usr/sbin:/bin:/usr/bin:/home/db2inst1/sqllib/bin:/home/db2inst1/sqllib/adm:/home/db2inst1/sqllib/misc:/usr/local/nz/bin64:/usr/local/nz/bin:/opt/IBM/InformationServer/Server/odpp/rhel/bin:/usr/kerberos/bin:/usr/local/bin:/usr/X11R6/bin:.
+PIDTOK=27034
+PP_DATASETS=datasets/
+PP_DEMO=/opt/IBM/projects_plus/dev/dstage1/JKLW/
+PP_DIR=/opt/IBM/projects_plus/
+PP_ENABLE=/opt/IBM/projects_plus/dev/dstage1/ENABLEMENT/
+PP_FOLDER=$PROJDEF
+PP_JAVA=JAVA/
+PP_JKLW=/opt/IBM/projects_plus/dev/dstage1/JKLW/
+PP_LOGS=logs/
+PP_PARAMS=params/
+PP_PARENT=$PROJDEF
+PP_PHASE=dev/
+PP_PROJECT=dstage1/
+PP_SCHEMAS=schemas/
+PP_SCRIPTS=scripts/
+PP_STAGING=staging/
+PP_SUBJECT=$PROJDEF
+PREVLEVEL=N
+PWD=/opt/IBM/InformationServer/Server/DSEngine
+PX_DBCONNECTHOME=/opt/IBM/InformationServer/Server/DSComponents
+previous=N
+RUNLEVEL=5
+runlevel=5
+SHELL=/bin/bash
+SHLVL=4
+TERM=
+THREADS_FLAG=native
+TMPDIR=/opt/IBM/TMPDIR
+TZ=CST6CDT,M3.2.0/2:00:00,M11.1.0/2:00:00
+UDTBIN=/opt/IBM/InformationServer/Server/DSEngine/ud41/bin
+UDTHOME=/opt/IBM/InformationServer/Server/DSEngine/ud41
+UPSTART_EVENTS=runlevel
+UPSTART_INSTANCE=
+UPSTART_JOB=rc
+USER=dsadm
+WHO=dstage1

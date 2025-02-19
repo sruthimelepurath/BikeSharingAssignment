@@ -1,0 +1,488 @@
+DataStage Report - Detail Log for job: FT02_BANK_CHECKING_To_BANK2_COMBINED_SOURCES 
+Produced on: 2/19/2025 4:27:26 AM
+Project: dstage1
+Host system: IS-SERVER.IBM.COM
+Items: 1 - 27
+Sorted on: Date Sorter
+Entries are filtered
+
+   Item #: 1
+   Event ID: 0
+   Timestamp: 2016-03-31 22:28:11
+   Type: Control
+   User Name: dsadm
+   Message Id: IIS-DSTAGE-RUN-I-0070
+   Message: Starting Job FT02_BANK_CHECKING_To_BANK2_COMBINED_SOURCES.
+JKLW_DBS_PWD = inf0server
+
+   Item #: 2
+   Event ID: 1
+   Timestamp: 2016-03-31 22:28:11
+   Type: Info
+   User Name: dsadm
+   Message Id: IIS-DSTAGE-RUN-I-0126
+   Message: Environment variable settings: 
+_=/usr/bin/nohup
+APT_COMPILEOPT=-c -O -fPIC -Wno-deprecated -m64 -mtune=generic -mcmodel=small
+APT_COMPILER=g++
+APT_CONFIG_FILE=/opt/IBM/InformationServer/Server/Configurations/default.apt
+APT_ERROR_CONFIGURATION=severity, !vseverity, !jobid, moduleid, errorIndex, timestamp, !ipaddr, !nodeplayer, !nodename, opid, message
+APT_LINKER=g++
+APT_LINKOPT=-shared -m64
+APT_MONITOR_MINTIME=10
+APT_NO_ONE_NODE_COMBINING_OPTIMIZATION=1
+APT_OPERATOR_REGISTRY_PATH=/opt/IBM/InformationServer/Server/Projects/dstage1/buildop
+APT_ORCHHOME=/opt/IBM/InformationServer/Server/PXEngine
+APT_USE_IPV4=1
+APT_YARN_CONFIG=
+ASBHOME=/opt/IBM/InformationServer/ASBNode
+BELL=^G
+COLORTERM=gnome-terminal
+CVS_RSH=ssh
+DB2DIR=/opt/IBM/db2/V10.5
+DB2INSTANCE=db2inst1
+DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-C6uGLKFwon,guid=a11264a8fcb5a137e411ee9c00000160
+DESKTOP_SESSION=gnome
+DISPLAY=:0.0
+DS_ENABLE_RESERVED_CHAR_CONVERT=0
+DS_OPERATOR_BUILDOP_DIR=buildop
+DS_OPERATOR_WRAPPED_DIR=wrapped
+DS_OPTIMIZE_FILE_BROWSE=0
+DS_TDM_PIPE_OPEN_TIMEOUT=720
+DS_TDM_TRACE_SUBROUTINE_CALLS=0
+DS_USERNO=-11540
+DSHOME=/opt/IBM/InformationServer/Server/DSEngine
+DSIPC_OPEN_TIMEOUT=30
+DSRPCD_PORT_NUMBER=31538
+FLAVOR=-1
+G_BROKEN_FILENAMES=1
+GDM_KEYBOARD_LAYOUT=us
+GDM_LANG=en_US.UTF-8
+GDMSESSION=gnome
+GNOME_DESKTOP_SESSION_ID=this-is-deprecated
+GNOME_KEYRING_PID=17836
+GNOME_KEYRING_SOCKET=/tmp/keyring-Qjd9e0/socket
+GTK_RC_FILES=/etc/gtk/gtkrc:/root/.gtkrc-1.2-gnome2
+HISTCONTROL=ignoredups
+HISTSIZE=1000
+HOME=/home/dsadm
+HOSTNAME=is-server.ibm.com
+IBM_JAVA_COMMAND_LINE=_jvm/bin/java -Dlauncher.usage.string=installUpdates [--jvmArgsFile=<filename>] -Doriginal.working.directory= -cp updater.jar com.ibm.is.install.UpdateInstaller -uiMode graphical
+IMSETTINGS_INTEGRATE_DESKTOP=yes
+IMSETTINGS_MODULE=none
+INSTHOME=/home/db2inst1
+ISFSHMID=29065242
+ISHOME=/opt/IBM/InformationServer
+ISUSER=isadmin
+LANG=en_US.UTF-8
+LD_LIBRARY_PATH=/opt/IBM/InformationServer/Server/Projects/dstage1/RT_BP234.O:/opt/IBM/InformationServer/Server/DSComponents/lib:/opt/IBM/InformationServer/Server/DSComponents/bin:/opt/IBM/InformationServer/Server/DSParallel:/opt/IBM/InformationServer/Server/PXEngine/user_lib:/opt/IBM/InformationServer/Server/PXEngine/lib:/opt/IBM/InformationServer/Server/Projects/dstage1/buildop:/opt/IBM/InformationServer/Server/biginsights/IHC/c++/Linux-amd64-64/lib:/opt/IBM/InformationServer/Server/branded_odbc/lib:/opt/IBM/InformationServer/Server/DSEngine/lib:/opt/IBM/InformationServer/Server/DSEngine/uvdlls:/opt/IBM/InformationServer/jdk/jre/lib/amd64/j9vm:/opt/IBM/InformationServer/jdk/jre/lib/amd64:/opt/IBM/InformationServer/ASBNode/lib/cpp:/opt/IBM/InformationServer/ASBNode/apps/proxy/cpp/linux-all-x86_64:/opt/IBM/db2/V10.5/lib64:/opt/IBM/InformationServer/Server/biginsights/IHC/c++/Linux-amd64-64/lib:/opt/IBM/InformationServer/Server/branded_odbc/lib:/opt/IBM/InformationServer/Server/DSEngine/lib:/opt/IBM/InformationServer/Server/DSEngine/uvdlls:/opt/IBM/InformationServer/jdk/jre/lib/amd64/j9vm:/opt/IBM/InformationServer/jdk/jre/lib/amd64:/opt/IBM/InformationServer/ASBNode/lib/cpp:/opt/IBM/InformationServer/ASBNode/apps/proxy/cpp/linux-all-x86_64:/opt/IBM/db2/V10.5/lib64:/usr/iop/4.1.0.0/hadoop/lib/native:/home/db2inst1/sqllib/lib:/usr/iop/4.1.0.0/hadoop/lib/native:/home/db2inst1/sqllib/lib:/usr/lib:.:/lib
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+LOGNAME=dsadm
+LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=01;05;37;41:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*.bz2=01;31:*.tbz=01;31:*.tbz2=01;31:*.bz=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=01;36:*.au=01;36:*.flac=01;36:*.mid=01;36:*.midi=01;36:*.mka=01;36:*.mp3=01;36:*.mpc=01;36:*.ogg=01;36:*.ra=01;36:*.wav=01;36:*.axa=01;36:*.oga=01;36:*.spx=01;36:*.xspf=01;36:
+MAIL=/var/spool/mail/root
+ODBCINI=/opt/IBM/InformationServer/Server/DSEngine/.odbc.ini
+ODPPERRL=/opt/IBM/InformationServer/ODPP/rhel_64/include
+ODPPLL=/opt/IBM/InformationServer/ODPP/rhel_64/license
+OLDPWD=/opt/IBM/InformationServer/Server/DSEngine
+ORBIT_SOCKETDIR=/tmp/orbit-root
+OSH_STDOUT_MSG=1
+PATH=/opt/IBM/InformationServer/Server/Projects/dstage1/wrapped:/opt/IBM/InformationServer/Server/Projects/dstage1/buildop:/opt/IBM/InformationServer/Server/Projects/dstage1/RT_BP234.O:/opt/IBM/InformationServer/Server/DSComponents/lib:/opt/IBM/InformationServer/Server/DSComponents/bin:/opt/IBM/InformationServer/Server/DSParallel:/opt/IBM/InformationServer/Server/PXEngine/user_osh_wrappers:/opt/IBM/InformationServer/Server/PXEngine/osh_wrappers:/opt/IBM/InformationServer/Server/PXEngine/bin:/usr/lib64/qt-3.3/bin:/usr/local/sbin:/usr/sbin:/sbin:/usr/local/bin:/usr/bin:/bin:/root/bin:/bin:/etc:/sbin:/usr/X11R6/bin:/usr/bin:/usr/bin/X11:/usr/local/bin:/usr/sbin:/usr/ucb:/home/db2inst1/sqllib/bin:/home/db2inst1/sqllib/adm:/home/db2inst1/sqllib/misc:/home/db2inst1/sqllib/bin:/home/db2inst1/sqllib/adm:/home/db2inst1/sqllib/misc:/usr/kerberos/bin:.
+PIDTOK=14786
+PP_DATASETS=datasets/
+PP_DEMO=/opt/IBM/projects_plus/dev/dstage1/JKLW/
+PP_DIR=/opt/IBM/projects_plus/
+PP_ENABLE=/opt/IBM/projects_plus/dev/dstage1/ENABLEMENT/
+PP_FOLDER=$PROJDEF
+PP_JAVA=JAVA/
+PP_JKLW=/opt/IBM/projects_plus/dev/dstage1/JKLW/
+PP_LOGS=logs/
+PP_PARAMS=params/
+PP_PARENT=$PROJDEF
+PP_PHASE=dev/
+PP_PROJECT=dstage1/
+PP_SCHEMAS=schemas/
+PP_SCRIPTS=scripts/
+PP_STAGING=staging/
+PP_SUBJECT=$PROJDEF
+PWD=/opt/IBM/InformationServer/Server/DSEngine
+PX_DBCONNECTHOME=/opt/IBM/InformationServer/Server/DSComponents
+QT_IM_MODULE=xim
+QTDIR=/usr/lib64/qt-3.3
+QTINC=/usr/lib64/qt-3.3/include
+QTLIB=/usr/lib64/qt-3.3/lib
+SESSION_MANAGER=local/unix:@/tmp/.ICE-unix/17846,unix/unix:/tmp/.ICE-unix/17846
+SHELL=/bin/bash
+SHLVL=6
+SSH_ASKPASS=/usr/libexec/openssh/gnome-ssh-askpass
+SSH_AUTH_SOCK=/tmp/keyring-Qjd9e0/socket.ssh
+TERM=
+THREADS_FLAG=native
+TMPDIR=/opt/IBM/TMPDIR
+TZ=CST6CDT,M3.2.0/2:00:00,M11.1.0/2:00:00
+UDTBIN=/opt/IBM/InformationServer/Server/DSEngine/ud41/bin
+UDTHOME=/opt/IBM/InformationServer/Server/DSEngine/ud41
+USER=dsadm
+USERNAME=root
+WHO=dstage1
+WINDOWID=69206510
+WINDOWPATH=1
+XAUTHORITY=/var/run/gdm/auth-for-root-IPp6SL/database
+XDG_SESSION_COOKIE=cb4b037199c1d29d3d8084f200000026-1459465110.806645-470082858
+XMODIFIERS=@im=none
+
+   Item #: 3
+   Event ID: 2
+   Timestamp: 2016-03-31 22:28:11
+   Type: Info
+   User Name: dsadm
+   Message Id: IIS-DSTAGE-RUN-I-0121
+   Message: Parallel job initiated
+
+   Item #: 4
+   Event ID: 3
+   Timestamp: 2016-03-31 22:28:11
+   Type: Info
+   User Name: dsadm
+   Message Id: IIS-DSTAGE-RUN-I-0470
+   Message: OSH script 
+# OSH / orchestrate script for Job FT02_BANK_CHECKING_To_BANK2_COMBINED_SOURCES compiled at 22:27:56 31 MAR 2016
+#################################################################
+#### STAGE: BANK_CHECKING
+## Operator
+pxbridge
+## Operator options
+-XMLProperties '<?xml version=\'1.0\' encoding=\'UTF-16\'?><Properties version=\'1.0\'><Common><Context type=\'int\'>1</Context><Variant type=\'string\'>9.1</Variant><DescriptorVersion type=\'string\'>1.0</DescriptorVersion><PartitionType type=\'int\'>-1</PartitionType></Common><Connection><Instance modified=\'1\' type=\'string\'><![CDATA[db2inst1]]></Instance><Database modified=\'1\' type=\'string\'><![CDATA[JKLW_DBS]]></Database><Username modified=\'1\' type=\'string\'><![CDATA[db2inst1]]></Username><Password modified=\'1\' type=\'string\'><![CDATA[[&"JKLW_DBS_PWD"]]]></Password><Conductor collapsed=\'1\' type=\'bool\'><![CDATA[0]]></Conductor></Connection><Usage><GenerateSQL modified=\'1\' type=\'bool\'><![CDATA[1]]></GenerateSQL><TableName modified=\'1\' type=\'string\'><![CDATA[JK_BANK2.BANK_CHECKING]]></TableName><EnableQuotedIDs type=\'bool\'><![CDATA[0]]></EnableQuotedIDs><XMLColumnAsLOB type=\'bool\'><![CDATA[0]]></XMLColumnAsLOB><PrefixForExpressionColumns type=\'string\'><![CDATA[EXPR]]></PrefixForExpressionColumns><SQL><EnablePartitioning collapsed=\'1\' type=\'bool\'><![CDATA[0]]></EnablePartitioning></SQL><Transaction><RecordCount type=\'int\'><![CDATA[2000]]></RecordCount><EndOfWave collapsed=\'1\' type=\'int\'><![CDATA[0]]></EndOfWave></Transaction><Session><IsolationLevel type=\'int\'><![CDATA[1]]></IsolationLevel><AutocommitMode type=\'int\'><![CDATA[0]]></AutocommitMode><ArraySize type=\'int\'><![CDATA[2000]]></ArraySize><SchemaReconciliation><FailOnSizeMismatch type=\'bool\'><![CDATA[1]]></FailOnSizeMismatch><FailOnTypeMismatch type=\'bool\'><![CDATA[1]]></FailOnTypeMismatch><FailOnCodePageMismatch type=\'bool\'><![CDATA[0]]></FailOnCodePageMismatch></SchemaReconciliation><PassLobLocator collapsed=\'1\' type=\'bool\'><![CDATA[0]]></PassLobLocator></Session><BeforeAfter collapsed=\'1\' type=\'bool\'><![CDATA[0]]></BeforeAfter><ReOptimization type=\'int\'><![CDATA[2]]></ReOptimization></Usage></Properties >'
+-Orientation link
+-connector '{
+   variant=\'9.1\', 
+   library=ccdb2, 
+   version=1.0, 
+   variantlist=\'9.1\', 
+   versionlist=\'1.0\', 
+   name=DB2Connector
+}'
+-source 0 '{
+      DSSQLType={ACCOUNT_BALANCE=3, ACCOUNT_BRANCH=4, ACCOUNT_HOLDER_ID=4, ACCOUNT_ID=4, ADDR1=-9, ADDR2=-9, BANKCARD=-9, CITY=-9, NAME=-9, ONLINE_ACCESS=-9, RECORD_ID=-9, SS_NUM=-9, STATE=-9, ZIP=-9, ZIP_FOUR=-9}, 
+      DSSQLPrecision={ACCOUNT_BALANCE=10, ADDR1=128, ADDR2=128, BANKCARD=3, CITY=128, NAME=128, ONLINE_ACCESS=3, RECORD_ID=20, SS_NUM=12, STATE=5, ZIP=10, ZIP_FOUR=10}, 
+      DSSQLScale={ACCOUNT_BALANCE=2}, 
+      DSNativeType={ACCOUNT_BALANCE=\'DECIMAL\', ACCOUNT_BRANCH=\'INTEGER\', ACCOUNT_HOLDER_ID=\'INTEGER\', ACCOUNT_ID=\'INTEGER\', ADDR1=\'VARGRAPHIC\', ADDR2=\'VARGRAPHIC\', BANKCARD=\'VARGRAPHIC\', CITY=\'VARGRAPHIC\', NAME=\'VARGRAPHIC\', ONLINE_ACCESS=\'VARGRAPHIC\', RECORD_ID=\'VARGRAPHIC\', SS_NUM=\'VARGRAPHIC\', STATE=\'VARGRAPHIC\', ZIP=\'VARGRAPHIC\', ZIP_FOUR=\'VARGRAPHIC\'}, 
+      DSSchema=\'record
+         (
+           ACCOUNT_BALANCE\:nullable decimal\[10\,2\]\;
+           ACCOUNT_BRANCH\:nullable int32\;
+           ACCOUNT_HOLDER_ID\:nullable int32\;
+           ACCOUNT_ID\:nullable int32\;
+           ADDR1\:nullable ustring\[max\=128\]\;
+           ADDR2\:nullable ustring\[max\=128\]\;
+           BANKCARD\:nullable ustring\[max\=3\]\;
+           CITY\:nullable ustring\[max\=128\]\;
+           NAME\:nullable ustring\[max\=128\]\;
+           ONLINE_ACCESS\:nullable ustring\[max\=3\]\;
+           RECORD_ID\:ustring\[max\=20\]\;
+           SS_NUM\:nullable ustring\[max\=12\]\;
+           STATE\:nullable ustring\[max\=5\]\;
+           ZIP\:nullable ustring\[max\=10\]\;
+           ZIP_FOUR\:nullable ustring\[max\=10\]\;
+         )\'
+}'
+   
+## General options
+[ident('BANK_CHECKING'); jobmon_ident('BANK_CHECKING')]
+## Outputs
+0> [modify (
+  ACCOUNT_BALANCE:nullable decimal[10,2]=ACCOUNT_BALANCE;
+  ACCOUNT_BRANCH:nullable int32=ACCOUNT_BRANCH;
+  ACCOUNT_HOLDER_ID:nullable int32=ACCOUNT_HOLDER_ID;
+  ACCOUNT_ID:nullable int32=ACCOUNT_ID;
+  ADDR1:nullable ustring[max=128]=ADDR1;
+  ADDR2:nullable ustring[max=128]=ADDR2;
+  BANKCARD:nullable ustring[max=3]=BANKCARD;
+  CITY:nullable ustring[max=128]=CITY;
+  NAME:nullable ustring[max=128]=NAME;
+  ONLINE_ACCESS:nullable ustring[max=3]=ONLINE_ACCESS;
+  RECORD_ID:not_nullable ustring[max=20]=RECORD_ID;
+  SS_NUM:nullable ustring[max=12]=SS_NUM;
+  STATE:nullable ustring[max=5]=STATE;
+  ZIP:nullable ustring[max=10]=ZIP;
+  ZIP_FOUR:nullable ustring[max=10]=ZIP_FOUR;
+keep
+  ACCOUNT_BALANCE,ACCOUNT_BRANCH,ACCOUNT_HOLDER_ID,ACCOUNT_ID,
+  ADDR1,ADDR2,BANKCARD,CITY,
+  NAME,ONLINE_ACCESS,RECORD_ID,SS_NUM,
+  STATE,ZIP,ZIP_FOUR;
+)] 'BANK_CHECKING:Link_BANK_CHECKING.v'
+;
+#################################################################
+#### STAGE: Transform_001
+## Operator
+transform
+## Operator options
+-flag run
+-name 'V0S2_FT02_BANK_CHECKING_To_BANK2_COMBINED_SOURCES_Transform_001'
+## General options
+[ident('Transform_001'); jobmon_ident('Transform_001')]
+## Inputs
+0< [] 'BANK_CHECKING:Link_BANK_CHECKING.v'
+## Outputs
+0> [] 'Transform_001:Link_BANK2_COMBINED_SOURCES.v'
+;
+#################################################################
+#### STAGE: BANK2_COMBINED_SOURCES
+## Operator
+pxbridge
+## Operator options
+-XMLProperties '<?xml version=\'1.0\' encoding=\'UTF-16\'?><Properties version=\'1.0\'><Common><Context type=\'int\'>2</Context><Variant type=\'string\'>9.1</Variant><DescriptorVersion type=\'string\'>1.0</DescriptorVersion><PartitionType type=\'int\'>-1</PartitionType></Common><Connection><Instance modified=\'1\' type=\'string\'><![CDATA[db2inst1]]></Instance><Database modified=\'1\' type=\'string\'><![CDATA[JKLW_DBS]]></Database><Username modified=\'1\' type=\'string\'><![CDATA[db2inst1]]></Username><Password modified=\'1\' type=\'string\'><![CDATA[[&"JKLW_DBS_PWD"]]]></Password><Conductor collapsed=\'1\' type=\'bool\'><![CDATA[0]]></Conductor></Connection><Usage><WriteMode type=\'int\'><![CDATA[0]]></WriteMode><GenerateSQL modified=\'1\' type=\'bool\'><![CDATA[1]]></GenerateSQL><TableName modified=\'1\' type=\'string\'><![CDATA[JK_STAGING.BANK2_COMBINED_SOURCES]]></TableName><EnableQuotedIDs type=\'bool\'><![CDATA[0]]></EnableQuotedIDs><XMLColumnAsLOB type=\'bool\'><![CDATA[0]]></XMLColumnAsLOB><PrefixForExpressionColumns type=\'string\'><![CDATA[EXPR]]></PrefixForExpressionColumns><SQL/><TableAction collapsed=\'1\' type=\'int\'><![CDATA[0]]></TableAction><Transaction><RecordCount type=\'int\'><![CDATA[2000]]></RecordCount></Transaction><Session><IsolationLevel type=\'int\'><![CDATA[1]]></IsolationLevel><AutocommitMode type=\'int\'><![CDATA[0]]></AutocommitMode><ArraySize type=\'int\'><![CDATA[2000]]></ArraySize><SchemaReconciliation><FailOnSizeMismatch type=\'bool\'><![CDATA[1]]></FailOnSizeMismatch><FailOnTypeMismatch type=\'bool\'><![CDATA[1]]></FailOnTypeMismatch><FailOnCodePageMismatch type=\'bool\'><![CDATA[0]]></FailOnCodePageMismatch><DropUnmatchedFields type=\'bool\'><![CDATA[1]]></DropUnmatchedFields></SchemaReconciliation></Session><BeforeAfter collapsed=\'1\' type=\'bool\'><![CDATA[0]]></BeforeAfter><ReOptimization type=\'int\'><![CDATA[2]]></ReOptimization><LockWaitMode collapsed=\'1\' type=\'int\'><![CDATA[1]]></LockWaitMode></Usage></Properties >'
+-Orientation link
+-connector '{
+   variant=\'9.1\', 
+   library=ccdb2, 
+   version=1.0, 
+   variantlist=\'9.1\', 
+   versionlist=\'1.0\', 
+   name=DB2Connector
+}'
+-target 0 '{
+      DSSQLType={ACCOUNT_BALANCE=3, ACCOUNT_BRANCH=4, ACCOUNT_HOLDER_ID=4, ACCOUNT_ID=4, ACCOUNT_TYPE=12, ADDR1=12, ADDR2=12, BANKCARD=12, CITY=12, GENDER=12, JOINED_ACCOUNTS=12, MARITAL_STATUS=12, NAME=12, NBR_YEARS_CLI=3, ONLINE_ACCESS=12, PROFESSION=12, SAVINGS_ACCOUNT=12, SOURCE_ID=12, SOURCE_TABLE=12, SS_NUM=12, STATE=12, ZIP=12, ZIP_FOUR=12}, 
+      DSDerivation={ACCOUNT_BALANCE=\'Link_BANK_CHECKING\.ACCOUNT_BALANCE\', ACCOUNT_BRANCH=\'Link_BANK_CHECKING\.ACCOUNT_BRANCH\', ACCOUNT_HOLDER_ID=\'Link_BANK_CHECKING\.ACCOUNT_HOLDER_ID\', ACCOUNT_ID=\'Link_BANK_CHECKING\.ACCOUNT_ID\', ACCOUNT_TYPE=\'setNull()\', ADDR1=\'Link_BANK_CHECKING\.ADDR1\', ADDR2=\'Link_BANK_CHECKING\.ADDR2\', BANKCARD=\'Link_BANK_CHECKING\.BANKCARD\', CITY=\'Link_BANK_CHECKING\.CITY\', GENDER=\'setNull()\', JOINED_ACCOUNTS=\'setNull()\', MARITAL_STATUS=\'setNull()\', NAME=\'Link_BANK_CHECKING\.NAME\', NBR_YEARS_CLI=\'setNull()\', ONLINE_ACCESS=\'Link_BANK_CHECKING\.ONLINE_ACCESS\', PROFESSION=\'setNull()\', SAVINGS_ACCOUNT=\'setNull()\', SOURCE_ID=\'Link_BANK_CHECKING\.RECORD_ID\', SOURCE_TABLE=\'\"JK_BANK2\.BANK_CHECKING\"\', SS_NUM=\'Link_BANK_CHECKING\.SS_NUM\', STATE=\'Link_BANK_CHECKING\.STATE\', ZIP=\'Link_BANK_CHECKING\.ZIP\', ZIP_FOUR=\'Link_BANK_CHECKING\.ZIP_FOUR\'}, 
+      DSSQLPrecision={ACCOUNT_BALANCE=10, ACCOUNT_TYPE=20, ADDR1=128, ADDR2=128, BANKCARD=3, CITY=128, GENDER=2, JOINED_ACCOUNTS=3, MARITAL_STATUS=32, NAME=128, NBR_YEARS_CLI=4, ONLINE_ACCESS=3, PROFESSION=32, SAVINGS_ACCOUNT=3, SOURCE_ID=20, SOURCE_TABLE=128, SS_NUM=12, STATE=5, ZIP=10, ZIP_FOUR=10}, 
+      DSSQLScale={ACCOUNT_BALANCE=2}, 
+      DSNativeType={ACCOUNT_BALANCE=\'DECIMAL\', ACCOUNT_BRANCH=\'INTEGER\', ACCOUNT_HOLDER_ID=\'INTEGER\', ACCOUNT_ID=\'INTEGER\', ACCOUNT_TYPE=\'VARCHAR\', ADDR1=\'VARCHAR\', ADDR2=\'VARCHAR\', BANKCARD=\'VARCHAR\', CITY=\'VARCHAR\', GENDER=\'VARCHAR\', JOINED_ACCOUNTS=\'VARCHAR\', MARITAL_STATUS=\'VARCHAR\', NAME=\'VARCHAR\', NBR_YEARS_CLI=\'DECIMAL\', ONLINE_ACCESS=\'VARCHAR\', PROFESSION=\'VARCHAR\', SAVINGS_ACCOUNT=\'VARCHAR\', SOURCE_ID=\'VARCHAR\', SOURCE_TABLE=\'VARCHAR\', SS_NUM=\'VARCHAR\', STATE=\'VARCHAR\', ZIP=\'VARCHAR\', ZIP_FOUR=\'VARCHAR\'}, 
+      DSSchema=\'record
+         (
+           ACCOUNT_BALANCE\:nullable decimal\[10\,2\]\;
+           ACCOUNT_BRANCH\:nullable int32\;
+           ACCOUNT_HOLDER_ID\:nullable int32\;
+           ACCOUNT_ID\:nullable int32\;
+           ACCOUNT_TYPE\:nullable string\[max\=20\]\;
+           ADDR1\:nullable string\[max\=128\]\;
+           ADDR2\:nullable string\[max\=128\]\;
+           BANKCARD\:nullable string\[max\=3\]\;
+           CITY\:nullable string\[max\=128\]\;
+           GENDER\:nullable string\[max\=2\]\;
+           JOINED_ACCOUNTS\:nullable string\[max\=3\]\;
+           MARITAL_STATUS\:nullable string\[max\=32\]\;
+           NAME\:nullable string\[max\=128\]\;
+           NBR_YEARS_CLI\:nullable decimal\[4\,0\]\;
+           ONLINE_ACCESS\:nullable string\[max\=3\]\;
+           PROFESSION\:nullable string\[max\=32\]\;
+           SAVINGS_ACCOUNT\:nullable string\[max\=3\]\;
+           SOURCE_ID\:string\[max\=20\]\;
+           SOURCE_TABLE\:nullable string\[max\=128\]\;
+           SS_NUM\:nullable string\[max\=12\]\;
+           STATE\:nullable string\[max\=5\]\;
+           ZIP\:nullable string\[max\=10\]\;
+           ZIP_FOUR\:nullable string\[max\=10\]\;
+         )\'
+}'
+   
+## General options
+[ident('BANK2_COMBINED_SOURCES'); jobmon_ident('BANK2_COMBINED_SOURCES')]
+## Inputs
+0< [] 'Transform_001:Link_BANK2_COMBINED_SOURCES.v'
+;
+# End of OSH code
+
+   Item #: 5
+   Event ID: 4
+   Timestamp: 2016-03-31 22:28:11
+   Type: Info
+   User Name: dsadm
+   Message Id: IIS-DSTAGE-RUN-I-0133
+   Message: Parallel job default NLS map UTF-8, default locale OFF
+
+   Item #: 6
+   Event ID: 5
+   Timestamp: 2016-03-31 22:28:11
+   Type: Info
+   User Name: dsadm
+   Message Id: IIS-DSEE-TFCN-00001
+   Message: main_program: IBM InfoSphere DataStage Enterprise Edition 11.5.0.7665 
+Copyright (c) 2001, 2005-2015 IBM Corporation. All rights reserved
+
+   Item #: 7
+   Event ID: 6
+   Timestamp: 2016-03-31 22:28:11
+   Type: Info
+   User Name: dsadm
+   Message Id: IIS-DSEE-TFCN-00006
+   Message: main_program: conductor uname: -s=Linux; -r=2.6.32-573.18.1.el6.x86_64; -v=#1 SMP Wed Jan 6 11:20:49 EST 2016; -n=is-server.ibm.com; -m=x86_64
+
+   Item #: 8
+   Event ID: 7
+   Timestamp: 2016-03-31 22:28:11
+   Type: Info
+   User Name: dsadm
+   Message Id: IIS-DSEE-TOSH-00002
+   Message: main_program: orchgeneral: loaded
+orchsort: loaded
+orchstats: loaded
+
+   Item #: 9
+   Event ID: 8
+   Timestamp: 2016-03-31 22:28:11
+   Type: Info
+   User Name: dsadm
+   Message Id: IIS-CONN-DB2-00480
+   Message: BANK_CHECKING: Connected to a LUW DB2 server
+
+   Item #: 10
+   Event ID: 9
+   Timestamp: 2016-03-31 22:28:11
+   Type: Info
+   User Name: dsadm
+   Message Id: IIS-CONN-DAAPI-00364
+   Message: BANK_CHECKING: Generated SELECT statement: SELECT ACCOUNT_BALANCE,ACCOUNT_BRANCH,ACCOUNT_HOLDER_ID,ACCOUNT_ID,ADDR1,ADDR2,BANKCARD,CITY,NAME,ONLINE_ACCESS,RECORD_ID,SS_NUM,STATE,ZIP,ZIP_FOUR FROM JK_BANK2.BANK_CHECKING
+
+   Item #: 11
+   Event ID: 10
+   Timestamp: 2016-03-31 22:28:11
+   Type: Info
+   User Name: dsadm
+   Message Id: IIS-CONN-DB2-00480
+   Message: BANK2_COMBINED_SOURCES: Connected to a LUW DB2 server
+
+   Item #: 12
+   Event ID: 11
+   Timestamp: 2016-03-31 22:28:11
+   Type: Info
+   User Name: dsadm
+   Message Id: IIS-CONN-DAAPI-00361
+   Message: BANK2_COMBINED_SOURCES: Generated INSERT statement: INSERT INTO JK_STAGING.BANK2_COMBINED_SOURCES(ACCOUNT_TYPE,ADDR1,ADDR2,BANKCARD,CITY,GENDER,JOINED_ACCOUNTS,MARITAL_STATUS,NAME,NBR_YEARS_CLI,ONLINE_ACCESS,PROFESSION,SAVINGS_ACCOUNT,SOURCE_ID,SOURCE_TABLE,SS_NUM,STATE,ZIP,ZIP_FOUR,ACCOUNT_BALANCE,ACCOUNT_BRANCH,ACCOUNT_HOLDER_ID,ACCOUNT_ID) VALUES(ORCHESTRATE.ACCOUNT_TYPE,ORCHESTRATE.ADDR1,ORCHESTRATE.ADDR2,ORCHESTRATE.BANKCARD,ORCHESTRATE.CITY,ORCHESTRATE.GENDER,ORCHESTRATE.JOINED_ACCOUNTS,ORCHESTRATE.MARITAL_STATUS,ORCHESTRATE.NAME,ORCHESTRATE.NBR_YEARS_CLI,ORCHESTRATE.ONLINE_ACCESS,ORCHESTRATE.PROFESSION,ORCHESTRATE.SAVINGS_ACCOUNT,ORCHESTRATE.SOURCE_ID,ORCHESTRATE.SOURCE_TABLE,ORCHESTRATE.SS_NUM,ORCHESTRATE.STATE,ORCHESTRATE.ZIP,ORCHESTRATE.ZIP_FOUR,ORCHESTRATE.ACCOUNT_BALANCE,ORCHESTRATE.ACCOUNT_BRANCH,ORCHESTRATE.ACCOUNT_HOLDER_ID,ORCHESTRATE.ACCOUNT_ID)
+
+   Item #: 13
+   Event ID: 12
+   Timestamp: 2016-03-31 22:28:12
+   Type: Info
+   User Name: dsadm
+   Message Id: IIS-DSEE-TFSC-00001
+   Message: main_program: APT configuration file: /opt/IBM/InformationServer/Server/Configurations/default.apt
+{
+	node "node1"
+	{
+		fastname "is-server.ibm.com"
+		pools ""
+		resource disk "/opt/IBM/InformationServer/Server/Datasets" {pools ""}
+		resource scratchdisk "/opt/IBM/InformationServer/Server/Scratch" {pools ""}
+	}
+	node "node2"
+	{
+		fastname "is-server.ibm.com"
+		pools ""
+		resource disk "/opt/IBM/InformationServer/Server/Datasets" {pools ""}
+		resource scratchdisk "/opt/IBM/InformationServer/Server/Scratch" {pools ""}
+	}
+}
+
+   Item #: 14
+   Event ID: 13
+   Timestamp: 2016-03-31 22:28:12
+   Type: Info
+   User Name: dsadm
+   Message Id: IIS-CONN-DB2-00480
+   Message: BANK_CHECKING,0: Connected to a LUW DB2 server
+
+   Item #: 15
+   Event ID: 14
+   Timestamp: 2016-03-31 22:28:12
+   Type: Info
+   User Name: dsadm
+   Message Id: IIS-CONN-DAAPI-00364
+   Message: BANK_CHECKING,0: Generated SELECT statement: SELECT ACCOUNT_BALANCE,ACCOUNT_BRANCH,ACCOUNT_HOLDER_ID,ACCOUNT_ID,ADDR1,ADDR2,BANKCARD,CITY,NAME,ONLINE_ACCESS,RECORD_ID,SS_NUM,STATE,ZIP,ZIP_FOUR FROM JK_BANK2.BANK_CHECKING
+
+   Item #: 16
+   Event ID: 15
+   Timestamp: 2016-03-31 22:28:12
+   Type: Info
+   User Name: dsadm
+   Message Id: IIS-CONN-DB2-00480
+   Message: BANK2_COMBINED_SOURCES,0: Connected to a LUW DB2 server
+
+   Item #: 17
+   Event ID: 16
+   Timestamp: 2016-03-31 22:28:12
+   Type: Info
+   User Name: dsadm
+   Message Id: IIS-CONN-DB2-00480
+   Message: BANK2_COMBINED_SOURCES,1: Connected to a LUW DB2 server
+
+   Item #: 18
+   Event ID: 17
+   Timestamp: 2016-03-31 22:28:12
+   Type: Info
+   User Name: dsadm
+   Message Id: IIS-CONN-DAAPI-00361
+   Message: BANK2_COMBINED_SOURCES,0: Generated INSERT statement: INSERT INTO JK_STAGING.BANK2_COMBINED_SOURCES(ACCOUNT_TYPE,ADDR1,ADDR2,BANKCARD,CITY,GENDER,JOINED_ACCOUNTS,MARITAL_STATUS,NAME,NBR_YEARS_CLI,ONLINE_ACCESS,PROFESSION,SAVINGS_ACCOUNT,SOURCE_ID,SOURCE_TABLE,SS_NUM,STATE,ZIP,ZIP_FOUR,ACCOUNT_BALANCE,ACCOUNT_BRANCH,ACCOUNT_HOLDER_ID,ACCOUNT_ID) VALUES(ORCHESTRATE.ACCOUNT_TYPE,ORCHESTRATE.ADDR1,ORCHESTRATE.ADDR2,ORCHESTRATE.BANKCARD,ORCHESTRATE.CITY,ORCHESTRATE.GENDER,ORCHESTRATE.JOINED_ACCOUNTS,ORCHESTRATE.MARITAL_STATUS,ORCHESTRATE.NAME,ORCHESTRATE.NBR_YEARS_CLI,ORCHESTRATE.ONLINE_ACCESS,ORCHESTRATE.PROFESSION,ORCHESTRATE.SAVINGS_ACCOUNT,ORCHESTRATE.SOURCE_ID,ORCHESTRATE.SOURCE_TABLE,ORCHESTRATE.SS_NUM,ORCHESTRATE.STATE,ORCHESTRATE.ZIP,ORCHESTRATE.ZIP_FOUR,ORCHESTRATE.ACCOUNT_BALANCE,ORCHESTRATE.ACCOUNT_BRANCH,ORCHESTRATE.ACCOUNT_HOLDER_ID,ORCHESTRATE.ACCOUNT_ID)
+
+   Item #: 19
+   Event ID: 18
+   Timestamp: 2016-03-31 22:28:12
+   Type: Info
+   User Name: dsadm
+   Message Id: IIS-CONN-DAAPI-00361
+   Message: BANK2_COMBINED_SOURCES,1: Generated INSERT statement: INSERT INTO JK_STAGING.BANK2_COMBINED_SOURCES(ACCOUNT_TYPE,ADDR1,ADDR2,BANKCARD,CITY,GENDER,JOINED_ACCOUNTS,MARITAL_STATUS,NAME,NBR_YEARS_CLI,ONLINE_ACCESS,PROFESSION,SAVINGS_ACCOUNT,SOURCE_ID,SOURCE_TABLE,SS_NUM,STATE,ZIP,ZIP_FOUR,ACCOUNT_BALANCE,ACCOUNT_BRANCH,ACCOUNT_HOLDER_ID,ACCOUNT_ID) VALUES(ORCHESTRATE.ACCOUNT_TYPE,ORCHESTRATE.ADDR1,ORCHESTRATE.ADDR2,ORCHESTRATE.BANKCARD,ORCHESTRATE.CITY,ORCHESTRATE.GENDER,ORCHESTRATE.JOINED_ACCOUNTS,ORCHESTRATE.MARITAL_STATUS,ORCHESTRATE.NAME,ORCHESTRATE.NBR_YEARS_CLI,ORCHESTRATE.ONLINE_ACCESS,ORCHESTRATE.PROFESSION,ORCHESTRATE.SAVINGS_ACCOUNT,ORCHESTRATE.SOURCE_ID,ORCHESTRATE.SOURCE_TABLE,ORCHESTRATE.SS_NUM,ORCHESTRATE.STATE,ORCHESTRATE.ZIP,ORCHESTRATE.ZIP_FOUR,ORCHESTRATE.ACCOUNT_BALANCE,ORCHESTRATE.ACCOUNT_BRANCH,ORCHESTRATE.ACCOUNT_HOLDER_ID,ORCHESTRATE.ACCOUNT_ID)
+
+   Item #: 20
+   Event ID: 19
+   Timestamp: 2016-03-31 22:28:12
+   Type: Info
+   User Name: dsadm
+   Message Id: IIS-CONN-DAAPI-00335
+   Message: BANK2_COMBINED_SOURCES,1: Number of rows inserted: 550
+
+   Item #: 21
+   Event ID: 20
+   Timestamp: 2016-03-31 22:28:12
+   Type: Info
+   User Name: dsadm
+   Message Id: IIS-CONN-DAAPI-00335
+   Message: BANK2_COMBINED_SOURCES,0: Number of rows inserted: 551
+
+   Item #: 22
+   Event ID: 21
+   Timestamp: 2016-03-31 22:28:12
+   Type: Info
+   User Name: dsadm
+   Message Id: IIS-CONN-DAAPI-00340
+   Message: BANK2_COMBINED_SOURCES,0: Number of rows rejected: 0
+
+   Item #: 23
+   Event ID: 22
+   Timestamp: 2016-03-31 22:28:12
+   Type: Info
+   User Name: dsadm
+   Message Id: IIS-CONN-DAAPI-00340
+   Message: BANK2_COMBINED_SOURCES,1: Number of rows rejected: 0
+
+   Item #: 24
+   Event ID: 23
+   Timestamp: 2016-03-31 22:28:12
+   Type: Info
+   User Name: dsadm
+   Message Id: IIS-DSEE-TFSC-00010
+   Message: main_program: Step execution finished with status = OK.
+
+   Item #: 25
+   Event ID: 24
+   Timestamp: 2016-03-31 22:28:12
+   Type: Info
+   User Name: dsadm
+   Message Id: IIS-DSEE-TCOS-00026
+   Message: main_program: Startup time, 0:00; production run time, 0:00.
+
+   Item #: 26
+   Event ID: 25
+   Timestamp: 2016-03-31 22:28:12
+   Type: Info
+   User Name: dsadm
+   Message Id: IIS-DSTAGE-RUN-I-0124
+   Message: Parallel job reports successful completion
+
+   Item #: 27
+   Event ID: 26
+   Timestamp: 2016-03-31 22:28:12
+   Type: Control
+   User Name: dsadm
+   Message Id: IIS-DSTAGE-RUN-I-0077
+   Message: Finished Job FT02_BANK_CHECKING_To_BANK2_COMBINED_SOURCES.
+
+End of report.
